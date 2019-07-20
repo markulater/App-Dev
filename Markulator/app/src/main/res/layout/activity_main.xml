@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="241dp"
+        android:layout_height="230dp"
+        android:layout_x="83dp"
+        android:layout_y="11dp"
+        app:srcCompat="@drawable/Markulator"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="96dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_x="26dp"
+        android:layout_y="342dp"
+        android:text="Weight"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_x="27dp"
+        android:layout_y="409dp"
+        android:text="Result "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="96dp"
+        android:layout_y="394dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/calulate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="534dp"
+        android:text="Markulate"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+</AbsoluteLayout>
