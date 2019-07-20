@@ -5,7 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    >
 
     <ImageView
         android:id="@+id/imageView2"
@@ -42,8 +44,8 @@
         android:id="@+id/textView6"
         android:layout_width="56dp"
         android:layout_height="34dp"
-        android:layout_x="27dp"
-        android:layout_y="409dp"
+        android:layout_x="28dp"
+        android:layout_y="417dp"
         android:text="Result "
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="414dp" />
@@ -52,8 +54,8 @@
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="96dp"
-        android:layout_y="394dp"
+        android:layout_x="95dp"
+        android:layout_y="408dp"
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="-53dp"
