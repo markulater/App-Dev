@@ -9,16 +9,6 @@
     android:background="@drawable/gradient"
     >
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="241dp"
-        android:layout_height="230dp"
-        android:layout_x="83dp"
-        android:layout_y="11dp"
-        app:srcCompat="@drawable/Markulator"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="21dp" />
-
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
@@ -70,5 +60,15 @@
         android:text="Markulate"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="588dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="324dp"
+        android:layout_height="257dp"
+        android:layout_x="40dp"
+        android:layout_y="14dp"
+        app:srcCompat="@drawable/Markulater"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="103dp" />
 
 </AbsoluteLayout>
