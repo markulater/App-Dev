@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Markulator</string>
+    <string name = "weight">Weight</string>
+    <string name = "result">Result</string>
+    <string name = "outcome">Outcome</string>
+
+    <string name = "Well_Done_You_Have_Achieved_a_First"></string>
+    <string name = "Well_Done_You_Have_Achieved_2_1"></string>
+    <string name = "Well_Done_You_Have_Achieved_Passed"></string>
+
+    <string name="first_class"></string>
+    <string name = "second_class"></string>
+    <string name="passed_class"></string>
+
 </resources>

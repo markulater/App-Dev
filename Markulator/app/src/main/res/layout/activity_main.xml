@@ -10,7 +10,7 @@
     >
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="96dp"
@@ -21,27 +21,25 @@
         tools:layout_editor_absoluteY="374dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:text="@string/weight"
         android:layout_width="65dp"
         android:layout_height="36dp"
         android:layout_x="26dp"
         android:layout_y="342dp"
-        android:text="Weight"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="355dp" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:text="@string/result"
         android:layout_width="56dp"
         android:layout_height="34dp"
         android:layout_x="28dp"
         android:layout_y="417dp"
-        android:text="Result "
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="414dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="95dp"
@@ -55,8 +53,10 @@
         android:id="@+id/calulate_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="148dp"
+        android:layout_x="155dp"
         android:layout_y="534dp"
+        android:background="#1FFFC3"
+        android:onClick="Markulate"
         android:text="Markulate"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="588dp" />
@@ -70,5 +70,16 @@
         app:srcCompat="@drawable/Markulater"
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/outcome"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_x="128dp"
+        android:layout_y="476dp"
+        android:text="@string/outcome"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="477dp" />
 
 </AbsoluteLayout>
