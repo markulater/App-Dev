@@ -56,7 +56,7 @@
         android:layout_x="155dp"
         android:layout_y="534dp"
         android:background="#1FFFC3"
-        android:onClick="Markulate"
+        android:onClick="markulutorCal"
         android:text="Markulate"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="588dp" />
@@ -67,7 +67,7 @@
         android:layout_height="257dp"
         android:layout_x="40dp"
         android:layout_y="14dp"
-        app:srcCompat="@drawable/Markulater"
+        app:srcCompat="@drawable/Markulator"
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="103dp" />
 

@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Markulator</string>
-    <string name = "weight">Weight</string>
-    <string name = "result">Result</string>
-    <string name = "outcome">Outcome</string>
+    <string name = "weight">weight</string>
+    <string name = "result">result</string>
+    <string name = "outcome">outcome</string>
+    <string name = "markulutorCal">markulatorCal</string>
 
     <string name = "Well_Done_You_Have_Achieved_a_First"></string>
     <string name = "Well_Done_You_Have_Achieved_2_1"></string>
