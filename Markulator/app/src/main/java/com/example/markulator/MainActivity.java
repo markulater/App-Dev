@@ -27,7 +27,25 @@ public class MainActivity extends AppCompatActivity {
 
         if (weightStr != null && !"".equals(weightStr)
             && weightStr != null && !"".equals(weightStr)){
-            int weightValue = int.ParseInt(weightStr/ 100;
+            Float weightValue =  Float.parseFloat(weightStr) / 100;
+            Float resultValue = Float.parseFloat(resultStr);
+
+            Float calc =  resultValue * weightValue;
+            displayCalc(calc);
         }
+    }
+
+    private void displayCalc(Float calc){
+        String calcLabel = "";
+
+        if (Float.compare(calc, 59f) > 0){
+            calcLabel = getString(R.string.Well_Done_You_Have_Achieved_Passed);
+        }else if (Float.compare(calc, 60f) > 0 && Float.compare(calc, 69f) <=0){
+            calcLabel = getString(R.string.Well_Done_You_Have_Achieved_2_1);
+        } else if (Float.compare(calc, 70f) > 0 && Float.compare(calc, 100f) <=0){
+            calcLabel = getString(R.string.Well_Done_You_Have_Achieved_a_First);
+        }
+        calcLabel = calc + "\n\n" + calcLabel;
+        outcome.setText(calcLabel);
     }
 }
